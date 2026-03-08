@@ -536,7 +536,7 @@
               @apply p-5 flex justify-between items-center bg-white border-t border-zinc-100 grow;
 
               h3 {
-                @apply text-lg font-serif font-bold text-zinc-900 group-hover:text-primary transition-colors;
+                @apply text-lg font-serif font-bold text-primary transition-colors;
               }
 
               .meta {
@@ -552,7 +552,7 @@
               }
 
               .arrow {
-                @apply w-10 h-10 rounded-full bg-zinc-50 border border-zinc-200 flex items-center justify-center text-zinc-400 group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all duration-300;
+                @apply w-10 h-10 rounded-full bg-primary border border-primary flex items-center justify-center text-white shadow-md hover:bg-orange-600 transition-all duration-300;
               }
             }
           }
